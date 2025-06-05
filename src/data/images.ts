@@ -96,6 +96,14 @@ export const galleryImages: Image[] = [
     description: 'Contemporary architecture design',
     category: 'Architecture',
     tags: ['architecture', 'modern', 'building', 'design']
+  },
+  {
+    id: '13',
+    url: 'https://cdn.chatandbuild.com/users/67dabe5177854791570f31ed/2025-05-12-100526-1747040737656-314842712-1748960130417-854795306.jpg',
+    title: 'Custom Upload',
+    description: 'User uploaded custom image',
+    category: 'Custom',
+    tags: ['custom', 'upload', 'user', 'personal']
   }
 ];
 
@@ -106,5 +114,6 @@ export const categories = [
   { id: 'food', name: 'Food', count: galleryImages.filter(img => img.category === 'Food').length },
   { id: 'architecture', name: 'Architecture', count: galleryImages.filter(img => img.category === 'Architecture').length },
   { id: 'business', name: 'Business', count: galleryImages.filter(img => img.category === 'Business').length },
-  { id: 'technology', name: 'Technology', count: galleryImages.filter(img => img.category === 'Technology').length }
+  { id: 'technology', name: 'Technology', count: galleryImages.filter(img => img.category === 'Technology').length },
+  { id: 'custom', name: 'Custom', count: galleryImages.filter(img => img.category === 'Custom').length }
 ];
